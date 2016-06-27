@@ -49,11 +49,8 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
       1 2 3 4 
      1 2 3 4 5 
     1 2 3 4 5 6 
-    
    1 2 3 4 5 6 7 
-   
   1 2 3 4 5 6 7 8 
-  
  1 2 3 4 5 6 7 8 9 
 
 #####No 3
