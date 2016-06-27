@@ -31,6 +31,7 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
 ---
 
 ####Pyramid Algorithms
+#####No 1
          1
         2 2 
        3 3 3 
@@ -41,5 +42,14 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
   8 8 8 8 8 8 8 8 
  9 9 9 9 9 9 9 9 9 
 
-
+#####No 2
+         1 
+        1 2 
+       1 2 3 
+      1 2 3 4 
+     1 2 3 4 5 
+    1 2 3 4 5 6 
+   1 2 3 4 5 6 7 
+  1 2 3 4 5 6 7 8 
+ 1 2 3 4 5 6 7 8 9 
 
