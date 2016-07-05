@@ -13,11 +13,12 @@ namespace CSharp.Algorithms
             FindDuplicateLetters.Run();
             StringReverse.Run();
 
-            /// NUMBERS
+            /// Math
             ArmstrongNumbers.Run();
             CalculateFactorial.Run();
             FibonacciRun.Run();
-            
+            StandardDeviation.Run();
+
             // PYRAMIDS
             Pyramid01.Run();
             Pyramid02.Run();
