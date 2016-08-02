@@ -1,4 +1,4 @@
-﻿using CSharp.Algorithms.Strings;
+﻿using CSharp.Algorithms.Numbers;
 
 namespace CSharp.Algorithms
 {
@@ -9,7 +9,7 @@ namespace CSharp.Algorithms
             /// STRINGS
             //FindDuplicateLetters.Run();
             //StringReverse.Run();
-            StringPermutations.Run();
+            //StringPermutations.Run();
 
             // Math
             /*
@@ -18,6 +18,7 @@ namespace CSharp.Algorithms
             FibonacciRun.Run();
             StandardDeviation.Run();
             */
+            IsPrime.Run();
 
             // PYRAMIDS
             /*
