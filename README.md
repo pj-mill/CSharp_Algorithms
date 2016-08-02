@@ -10,6 +10,7 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
 | Armstrong | Demonstrate 2 ways to determine if a number is an armstrong number (number is equal to the power of all it's digits)
 | Factorial | Shows 2 ways to calculate the factorial of a number using a while loop and recursion |
 |Mean & Standard Deviation | Uses PLINQ's Aggregate Function to calculate the mean and Standard deviation for a set of numbers |
+| Is Prime Number | Algorithm for checking prime numbers |
 
 ---
 
