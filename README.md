@@ -28,7 +28,7 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
 | Algorithm | Comment |
 | --------- | ------- |
 | Binary | Demonstrates the builtin c# feature and a custom divide and conquer method for performing a binary search|
-| Linear | Searches sorted and unsorted lists and outputs the number of searchesit took to complete the process  |
+| Linear | Searches sorted and unsorted lists and outputs the number of lookups it took to complete the process  |
 
 ---
 
