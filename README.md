@@ -19,6 +19,7 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
 | --------- | ------- |
 | Dupes | Finds and calculates the number of times a letter is duplicated in a string |
 | Reverse | Shows 3 ways to reverse a string using an array, a while loop and recursion |
+| Sentence Permutations | Shows an iterative approach to determining word permutations in a sentence |
 
 ---
 
@@ -27,7 +28,7 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
 | Algorithm | Comment |
 | --------- | ------- |
 | Binary | Demonstrates the builtin c# feature and a custom divide and conquer method for performing a binary search|
-| Linear | Searches sorted and unsorted lists and outputs the number of searchesit took to complete the process  |
+| Linear | Searches sorted and unsorted lists and outputs the number of lookups it took to complete the process  |
 
 ---
 
