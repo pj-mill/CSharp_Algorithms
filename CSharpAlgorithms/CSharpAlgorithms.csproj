@@ -57,6 +57,7 @@
     <Compile Include="Pyramids\Pyramid05.cs" />
     <Compile Include="Search\BinarySearch.cs" />
     <Compile Include="Search\LinearSearch.cs" />
+    <Compile Include="Strings\StringPermutations.cs" />
     <Compile Include="Strings\FindDuplicateLetters.cs" />
     <Compile Include="Strings\StringReverse.cs" />
     <Compile Include="Utilities\PrintUtility.cs" />

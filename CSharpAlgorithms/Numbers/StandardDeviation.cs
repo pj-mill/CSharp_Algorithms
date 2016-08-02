@@ -10,6 +10,7 @@ namespace CSharp.Algorithms.Numbers
         {
             PrintUtility.PrintTitle("MEAN & STANDARD DEVIATION");
 
+            // Generate some random numbers
             int[] nums = new int[10000];
             Random r = new Random();
 
