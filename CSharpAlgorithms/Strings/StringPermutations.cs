@@ -39,6 +39,41 @@ namespace CSharp.Algorithms.Strings
                 return;
             }
 
+            // Shift Primaryset words
+            Action<List<string>, int> shiftPrimarySet = (list, idxFrom) =>
+            {
+                // Always shifts word to zero index (unless it's zero)
+                // Shift next word to top of primary list
+                // This allows us to order the output plus
+                // it makes it easier for us to grab the rest of the set and 'CopyTo' subset
+                // E.G. (The first words reading down reads the same as the first line going across)
+                //      This is a string
+                //      is This a string
+                //      a This is string
+                //      string This is a
+
+                if (idxFrom <= 0) return;
+                var temp = list[0];
+                list[0] = list[idxFrom];
+                list[idxFrom] = temp;
+            };
+
+            // Shift subset words
+            Action<string[], int> shiftSubset = (subsetArray, to) =>
+            {
+                // We keep shifting from left to right until we reach the upper boundary
+                // E.G. Checkout 'This' word
+                //      This is a string
+                //      is This a string
+                //      is a This string
+                //      is a string This
+
+                if (to <= 0) return;
+                var temp = subsetArray[to];
+                subsetArray[to] = subsetArray[to - 1];
+                subsetArray[to - 1] = temp;
+            };
+
             // Print permutations
             Action<string, string[]> print = (curWord, subsetArray) =>
             {
@@ -50,39 +85,12 @@ namespace CSharp.Algorithms.Strings
                 Console.WriteLine();
             };
 
-            // Shift subset words
-            Action<string[], int> shiftSubset = (subsetArray, to) =>
-            {
-                if (to <= 0) return;
-                var temp = subsetArray[to];
-                subsetArray[to] = subsetArray[to - 1];
-                subsetArray[to - 1] = temp;
-            };
-
-            // Shift Primaryset words
-            Action<List<string>, int> shiftPrimarySet = (list, from) =>
-            {
-                // Always shifts to zero index (unless it's zero)
-                if (from <= 0) return;
-                var temp = list[0];
-                list[0] = list[from];
-                list[from] = temp;
-            };
-
-
             // Process
             for (int i = 0; i < len; ++i)
             {
                 var subsetShiftIndex = 1;
 
-                // Shift next word to top of primary list
-                // This allows us to order the output plus
-                // it makes it easier for us to grab the rest of the set and 'CopyTo' subset
-                // E.G. (The first word going down reads the same as the first line going across)
-                //      This is a string
-                //      is This a string
-                //      a This is string
-                //      string This is a
+                // Shift words in primary set
                 shiftPrimarySet(primarySet, i);
                 primarySet.CopyTo(1, subset, 0, subsetLength);
 
@@ -92,12 +100,7 @@ namespace CSharp.Algorithms.Strings
                     print(primarySet[0], subset);
 
                     // Shift subset words
-                    // We keep shifting from left to right until we reach the upper boundary
-                    // E.G. Checkout 'This' word
-                    //      This is a string
-                    //      is This a string
-                    //      is a This string
-                    //      is a string This
+
                     shiftSubset(subset, subsetShiftIndex);
 
                     // If we reach the upper boundary of the subset, start at the beginning
