@@ -2,6 +2,13 @@
 A console app demonstrating some rudimentary algorithms for strings, numbers, searches &amp; pyramids. More to come ...
 
 ---
+#### LeetCode Contests
+|Context No.|Name|Difficulty|
+|-----------|----|-----------|
+|389|[Find The Difference](https://leetcode.com/contest/2/problems/find-the-difference/)|Easy|
+
+---
+
 ####Math / Number Algorithms
 
 | Algorithm | Comment |
