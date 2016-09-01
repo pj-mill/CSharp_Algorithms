@@ -1,4 +1,4 @@
-﻿using CSharp.Algorithms.Numbers;
+﻿using CSharpAlgorithms.LeetCode;
 
 namespace CSharp.Algorithms
 {
@@ -6,6 +6,9 @@ namespace CSharp.Algorithms
     {
         static void Main(string[] args)
         {
+            /// LEETCODE CONTEST
+            FindTheDifference.Run();
+
             /// STRINGS
             //FindDuplicateLetters.Run();
             //StringReverse.Run();
@@ -16,9 +19,9 @@ namespace CSharp.Algorithms
             ArmstrongNumbers.Run();
             CalculateFactorial.Run();
             FibonacciRun.Run();
-            StandardDeviation.Run();
-            */
+            StandardDeviation.Run();            
             IsPrime.Run();
+            */
 
             // PYRAMIDS
             /*
