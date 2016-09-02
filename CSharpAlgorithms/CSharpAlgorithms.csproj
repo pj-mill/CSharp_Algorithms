@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LeetCodeContests\EliminationGame.cs" />
     <Compile Include="LeetCodeContests\FindTheDifference.cs" />
     <Compile Include="Numbers\ArmstrongNumbers.cs" />
     <Compile Include="Numbers\CalculateFactorial.cs" />

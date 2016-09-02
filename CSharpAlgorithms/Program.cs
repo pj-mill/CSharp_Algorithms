@@ -1,4 +1,4 @@
-﻿using CSharpAlgorithms.LeetCode;
+﻿using CSharpAlgorithms.LeetCodeContests;
 
 namespace CSharp.Algorithms
 {
@@ -8,6 +8,7 @@ namespace CSharp.Algorithms
         {
             /// LEETCODE CONTEST
             FindTheDifference.Run();
+            //EliminationGame.Run();
 
             /// STRINGS
             //FindDuplicateLetters.Run();
