@@ -2,7 +2,14 @@
 A console app demonstrating some rudimentary algorithms for strings, numbers, searches &amp; pyramids. More to come ...
 
 ---
-####Math / Number Algorithms
+### LeetCode Contests
+|Context No.|Name|Difficulty|
+|-----------|----|-----------|
+|389|[Find The Difference](https://leetcode.com/contest/2/problems/find-the-difference/)|Easy|
+
+---
+
+###Math / Number Algorithms
 
 | Algorithm | Comment |
 | --------- | ------- |
@@ -14,7 +21,7 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
 
 ---
 
-####String Algorithms
+###String Algorithms
 
 | Algorithm | Comment |
 | --------- | ------- |
@@ -24,7 +31,7 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
 
 ---
 
-####Search Algorithms
+###Search Algorithms
 
 | Algorithm | Comment |
 | --------- | ------- |
@@ -33,7 +40,7 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
 
 ---
 
-####Pyramid Algorithms
+###Pyramid Algorithms
 #####No 1
          1
         2 2 
