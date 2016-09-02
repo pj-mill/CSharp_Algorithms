@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace CSharpAlgorithms.LeetCodeContests
 {
@@ -19,163 +18,59 @@ namespace CSharpAlgorithms.LeetCodeContests
         public static void Run()
         {
             Console.WriteLine(LastRemaining(9)); // 6
+            Console.WriteLine(LastRemaining(10)); // 8
+            Console.WriteLine(LastRemaining(15)); // 8
+            Console.WriteLine(LastRemaining(22)); // 16
             Console.WriteLine(LastRemaining(6)); // 4
             Console.WriteLine(LastRemaining(11)); // 8
-            Console.WriteLine(LastRemaining(1000000));
+            Console.WriteLine(LastRemaining(35)); // 24
+            Console.WriteLine(LastRemaining(53)); // 22
+            Console.WriteLine(LastRemaining(90000)); // 24534
         }
 
         private static int LastRemaining(int n)
         {
-            int[] currentNums = new int[n];
-            // int[] toProcess;
-            int cycle = 0;
-            int lower = 1;
-            int higher = n;
-            int count = n;
-            int currentLow = 1;
-            int currentHigh = n;
-            int currentIdx = 0;
+            // Pre-Check
+            if (n == 1) { return 1; }
+            if (n <= 3) { return 2; }
 
+            // Vars
             int result = 0;
+            int directionCycle = 1;// 0 == L=>R ; 1 == R=>L
+            int lower = 2;
+            int higher = (n % 2 == 0) ? n : n - 1;
+            int possibleNumbers = higher / lower;
+            bool even = (possibleNumbers % 2 == 0); // Are there an even amount of possible numbers
+            int diff = 2; // The difference between one number and the next for each iteration
 
+            // Iterate
             while (result == 0)
             {
-
-                if (cycle % 2 == 0)
+                // Left To Right (directionCycle == 0)
+                if (directionCycle % 2 == 0)
                 {
-
-                    //currentHigh = (higher % 2 == 1) ? higher - 1 : higher;
-
-                    currentIdx = 0;
-                    lower = currentLow;
-                    for (int i = lower; i <= higher; i++)
-                    {
-                        if (currentIdx == 1)
-                        {
-                            currentLow = i;
-                        }
-
-                        if (i % 2 == 1)
-                        {
-                            currentHigh = i;
-                        }
-
-                        currentIdx++;
-                    }
-
-                    Console.WriteLine($"{currentLow} - {currentHigh}");
-
-                    if (currentLow == currentHigh)
-                    {
-                        result = currentHigh;
-                    }
-
+                    lower += diff;
+                    higher = even ? higher : higher - diff;
                 }
+
+                // Right To Left (directionCycle == 1)
                 else
                 {
-
+                    higher -= diff;
+                    lower = even ? lower : lower + diff;
                 }
-                cycle++;
+
+                // Check
+                result = (lower == higher || possibleNumbers == 2) ? higher : 0;
+
+                // Prepare for next iteration
+                possibleNumbers = possibleNumbers / 2;
+                even = (possibleNumbers % 2 == 0);
+                diff *= 2;
+                directionCycle++;
             }
+
             return result;
-        }
-
-        private static int LastRemaining2(int n)
-        {
-            int[] currentNums = new int[n];
-            int[] toProcess;// = null;// new int[n];
-            int cycle = 0;
-            int currentIdx = 0;
-
-            for (int i = 1; i <= n; i++)
-            {
-                currentNums[i - 1] = i;
-            }
-
-            while (currentNums.Length > 1)
-            {
-                toProcess = new int[currentNums.Length];
-                Array.Copy(currentNums, toProcess, currentNums.Length);
-
-                if (cycle % 2 == 0)
-                {
-                    currentNums = new int[currentNums.Length / 2];
-                    currentIdx = 0;
-                    for (int i = 0; i < toProcess.Length; i++)
-                    {
-                        if (i % 2 == 1)
-                        {
-                            currentNums[currentIdx] = toProcess[i];
-                            currentIdx++;
-                        }
-                    }
-
-                }
-                else
-                {
-                    int shift = (currentNums.Length % 2 == 0) ? 0 : 1;
-                    currentNums = new int[currentNums.Length / 2];
-                    currentIdx = currentNums.Length - 1;
-                    for (int i = toProcess.Length - 1; i >= 0; i--)
-                    {
-                        if (i % 2 == shift)
-                        {
-                            currentNums[currentIdx] = toProcess[i];
-                            currentIdx--;
-                        }
-                    }
-                }
-                cycle++;
-            }
-
-            return currentNums[0];
-        }
-
-
-        private static int LastRemainingAttempt01(int n)
-        {
-            List<int> currentNums = new List<int>();
-            List<int> toProcess = new List<int>();
-            int cycle = 0;
-
-            for (int i = 1; i <= n; i++)
-            {
-                currentNums.Add(i);
-            }
-
-            while (currentNums.Count > 1)
-            {
-                toProcess = new List<int>(currentNums);
-                currentNums.Clear();
-
-                if (cycle % 2 == 0)
-                {
-                    // Left to right
-                    for (int i = 0; i < toProcess.Count; i++)
-                    {
-                        if (i % 2 == 1)
-                        {
-                            currentNums.Add(toProcess[i]);
-                        }
-                    }
-                }
-                else
-                {
-                    var count = 0;
-                    // Right to left
-                    for (int i = toProcess.Count - 1; i >= 0; i--)
-                    {
-                        if (count % 2 == 1)
-                        {
-                            currentNums.Insert(0, toProcess[i]);
-                        }
-                        count++;
-                    }
-                }
-
-                cycle++;
-            }
-            return currentNums[0];
         }
     }
 }
