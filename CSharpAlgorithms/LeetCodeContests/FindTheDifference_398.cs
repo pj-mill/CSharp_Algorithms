@@ -13,7 +13,7 @@ namespace CSharpAlgorithms.LeetCodeContests
         Find the letter that was added in t.
     */
 
-    public class FindTheDifference
+    public class FindTheDifference_389
     {
         public static void Run()
         {

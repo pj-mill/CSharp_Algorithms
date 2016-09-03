@@ -43,14 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LeetCodeContests\EliminationGame.cs" />
-    <Compile Include="LeetCodeContests\FindTheDifference.cs" />
-    <Compile Include="Numbers\ArmstrongNumbers.cs" />
-    <Compile Include="Numbers\CalculateFactorial.cs" />
-    <Compile Include="Numbers\Fibonacci\Fibonacci.cs" />
-    <Compile Include="Numbers\Fibonacci\FibonacciRun.cs" />
-    <Compile Include="Numbers\IsPrime.cs" />
-    <Compile Include="Numbers\StandardDeviation.cs" />
+    <Compile Include="LeetCodeContests\EliminationGame_390.cs" />
+    <Compile Include="LeetCodeContests\FindTheDifference_398.cs" />
+    <Compile Include="LeetCodeContests\Numbers\ArmstrongNumbers.cs" />
+    <Compile Include="LeetCodeContests\Numbers\CalculateFactorial.cs" />
+    <Compile Include="LeetCodeContests\Numbers\Fibonacci\Fibonacci.cs" />
+    <Compile Include="LeetCodeContests\Numbers\Fibonacci\FibonacciRun.cs" />
+    <Compile Include="LeetCodeContests\Numbers\IsPrime.cs" />
+    <Compile Include="LeetCodeContests\Numbers\StandardDeviation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pyramids\Pyramid01.cs" />

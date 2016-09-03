@@ -13,7 +13,7 @@ namespace CSharpAlgorithms.LeetCodeContests
     Find the last number that remains starting with a list of length n.
 */
 
-    public class EliminationGame
+    public class EliminationGame_390
     {
         public static void Run()
         {

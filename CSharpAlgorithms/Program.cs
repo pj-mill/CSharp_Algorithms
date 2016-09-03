@@ -7,8 +7,8 @@ namespace CSharp.Algorithms
         static void Main(string[] args)
         {
             /// LEETCODE CONTEST
-            //FindTheDifference.Run();
-            EliminationGame.Run();
+            //FindTheDifference_389.Run();
+            EliminationGame_390.Run();
 
             /// STRINGS
             //FindDuplicateLetters.Run();
