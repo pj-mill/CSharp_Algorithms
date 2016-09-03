@@ -6,6 +6,7 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
 |Context No.|Name|Difficulty|
 |-----------|----|-----------|
 |389|[Find The Difference](https://leetcode.com/contest/2/problems/find-the-difference/)|Easy|
+|390|[Elimination Game](https://leetcode.com/contest/2/problems/elimination-game/)|Medium|
 
 ---
 
