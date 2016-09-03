@@ -5,6 +5,7 @@ namespace CSharpAlgorithms.LeetCodeContests
 
     /*
     LeetCode 390. Elimination Game
+    Level: Medium
     https://leetcode.com/contest/2/problems/elimination-game/
 
     There is a list of sorted integers from 1 to n. Starting from left to right, remove the first number and every other number afterward until you reach the end of the list.

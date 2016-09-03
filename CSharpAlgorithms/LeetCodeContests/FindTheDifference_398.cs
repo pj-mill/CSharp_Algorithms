@@ -6,6 +6,7 @@ namespace CSharpAlgorithms.LeetCodeContests
 {
     /*
         LeetCode 389. Find The Difference
+        Level: Easy
         https://leetcode.com/contest/2/problems/find-the-difference/
 
         Given two strings s and t which consist of only lowercase letters.
