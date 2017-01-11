@@ -1,4 +1,4 @@
-﻿using CSharpAlgorithms.LeetCodeContests;
+﻿using CSharpAlgorithms.Codility_Lessons.Iterations;
 
 namespace CSharp.Algorithms
 {
@@ -6,10 +6,13 @@ namespace CSharp.Algorithms
     {
         static void Main(string[] args)
         {
+            // Codility Lessons
+            BinaryGap.Run();
+
             /// LEETCODE CONTEST
             //FindTheDifference_389.Run();
-            EliminationGame_390.Run();
-
+            //EliminationGame_390.Run();
+            //WiggleSequence_376.Run();
             /// STRINGS
             //FindDuplicateLetters.Run();
             //StringReverse.Run();

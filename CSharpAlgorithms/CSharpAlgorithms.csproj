@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Codility_Lessons\Iterations\BinaryGap.cs" />
     <Compile Include="LeetCodeContests\EliminationGame_390.cs" />
     <Compile Include="LeetCodeContests\FindTheDifference_398.cs" />
+    <Compile Include="LeetCodeContests\WiggleSequence_376.cs" />
     <Compile Include="Numbers\ArmstrongNumbers.cs" />
     <Compile Include="Numbers\CalculateFactorial.cs" />
     <Compile Include="Numbers\Fibonacci\Fibonacci.cs" />
@@ -68,6 +70,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
