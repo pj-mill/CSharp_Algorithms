@@ -2,6 +2,16 @@
 A console app demonstrating some rudimentary algorithms for strings, numbers, searches &amp; pyramids. More to come ...
 
 ---
+
+https://codility.com/programmers/lessons/1-iterations/
+
+### Codility Lessons
+####Iterations
+|Lesson|
+|------|
+|[BinaryGap)[https://codility.com/programmers/lessons/1-iterations/]
+
+---
 ### LeetCode Contests
 |Context No.|Name|Difficulty|
 |-----------|----|-----------|
