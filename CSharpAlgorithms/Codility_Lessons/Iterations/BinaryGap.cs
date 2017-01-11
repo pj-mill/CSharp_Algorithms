@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace CSharpAlgorithms.Codility_Lessons.Iterations
 {
@@ -29,10 +30,15 @@ namespace CSharpAlgorithms.Codility_Lessons.Iterations
     {
         public static void Run()
         {
-            Console.WriteLine(Solution(529));
-            Console.WriteLine(Solution(1));
-            Console.WriteLine(Solution(1000000));
-            Console.WriteLine(Solution(2000000000));
+            Console.WriteLine($"First Solution: {Solution(529)}");
+            Console.WriteLine($"First Solution: {Solution(1)}");
+            Console.WriteLine($"First Solution: {Solution(1000000)}");
+            Console.WriteLine($"First Solution: {Solution(2000000000)}");
+
+            Console.WriteLine($"Second Solution: {Solution2(529)}");
+            Console.WriteLine($"Second Solution: {Solution2(1)}");
+            Console.WriteLine($"Second Solution: {Solution2(1000000)}");
+            Console.WriteLine($"Second Solution: {Solution2(2000000000)}");
         }
 
         public static int Solution(int n)
@@ -62,6 +68,12 @@ namespace CSharpAlgorithms.Codility_Lessons.Iterations
                 }
             }
             return longest;
+        }
+
+        public static int Solution2(int n)
+        {
+            // Thanks to : http://codereview.stackexchange.com/questions/128105/calculating-the-binary-gap-of-a-number
+            return Convert.ToString(n, 2).Trim('0').Split('1').Max(X => X.Length);
         }
     }
 }
