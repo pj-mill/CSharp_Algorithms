@@ -1,5 +1,14 @@
 # CSharp_Algorithms
-A console app demonstrating some rudimentary algorithms for strings, numbers, searches &amp; pyramids. More to come ...
+
+A console app demonstrating algorithms of all levels for strings, numbers, arrays, searches, pyramids, and more ...
+
+---
+
+### Codility Lessons
+####Iterations
+|Lesson|Description|
+|------|-----------|
+|[BinaryGap](https://codility.com/programmers/lessons/1-iterations/)|Determine the longest sequence of zeros in a binary value|
 
 ---
 ### LeetCode Contests
