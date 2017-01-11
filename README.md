@@ -10,6 +10,11 @@ A console app demonstrating algorithms of all levels for strings, numbers, array
 |------|-----------|
 |[BinaryGap](https://codility.com/programmers/lessons/1-iterations/)|Determine the longest sequence of zeros in a binary value|
 
+####Arrays
+|Lesson|Description|
+|------|-----------|
+|[CyclicRotation](https://codility.com/programmers/lessons/2-arrays/cyclic_rotation/)|Rotate an array to the right by a given number of steps|
+
 ---
 ### LeetCode Contests
 |Context No.|Name|Difficulty|
