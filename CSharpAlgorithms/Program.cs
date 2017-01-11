@@ -1,4 +1,4 @@
-﻿using CSharpAlgorithms.Codility_Lessons.Iterations;
+﻿using CSharpAlgorithms.Codility_Lessons.Arrays;
 
 namespace CSharp.Algorithms
 {
@@ -7,7 +7,8 @@ namespace CSharp.Algorithms
         static void Main(string[] args)
         {
             // Codility Lessons
-            BinaryGap.Run();
+            //BinaryGap.Run();
+            CyclicRotation.Run();
 
             /// LEETCODE CONTEST
             //FindTheDifference_389.Run();
