@@ -6,9 +6,9 @@ A console app demonstrating algorithms of all levels for strings, numbers, array
 
 ### Codility Lessons
 ####Iterations
-|Lesson|
-|------|
-|[BinaryGap](https://codility.com/programmers/lessons/1-iterations/)|
+|Lesson|Description|
+|------|-----------|
+|[BinaryGap](https://codility.com/programmers/lessons/1-iterations/)|Determine the longest sequence of zeros in a binary value|
 
 ---
 ### LeetCode Contests
