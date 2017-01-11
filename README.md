@@ -3,13 +3,11 @@ A console app demonstrating some rudimentary algorithms for strings, numbers, se
 
 ---
 
-https://codility.com/programmers/lessons/1-iterations/
-
 ### Codility Lessons
 ####Iterations
 |Lesson|
 |------|
-|[BinaryGap)[https://codility.com/programmers/lessons/1-iterations/]
+|[BinaryGap](https://codility.com/programmers/lessons/1-iterations/)|
 
 ---
 ### LeetCode Contests
