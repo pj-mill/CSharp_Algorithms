@@ -1,4 +1,4 @@
-﻿using CSharpAlgorithms.Codility_Lessons.ArrayLessons;
+﻿using CSharpAlgorithms.CodeWars;
 
 namespace CSharp.Algorithms
 {
@@ -6,21 +6,25 @@ namespace CSharp.Algorithms
     {
         static void Main(string[] args)
         {
-            // Codility Lessons
+            /// CodeWars
+            Vasya_Clerk.Run();
+
+            /// Codility Lessons
             //BinaryGap.Run();
             //CyclicRotation.Run();
-            OddOccurrencesInArray.Run();
+            //OddOccurrencesInArray.Run();
 
             /// LEETCODE CONTEST
             //FindTheDifference_389.Run();
             //EliminationGame_390.Run();
             //WiggleSequence_376.Run();
+
             /// STRINGS
             //FindDuplicateLetters.Run();
             //StringReverse.Run();
             //StringPermutations.Run();
 
-            // Math
+            /// Math
             /*
             ArmstrongNumbers.Run();
             CalculateFactorial.Run();
@@ -29,7 +33,7 @@ namespace CSharp.Algorithms
             IsPrime.Run();
             */
 
-            // PYRAMIDS
+            /// PYRAMIDS
             /*
             Pyramid01.Run();
             Pyramid02.Run();
@@ -38,7 +42,7 @@ namespace CSharp.Algorithms
             Pyramid05.Run();
             */
 
-            // SEARCH
+            /// SEARCH
             /*
             LinearSearch.Run();
             BinarySearch.Run();

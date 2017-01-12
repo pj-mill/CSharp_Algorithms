@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace CSharpAlgorithms.Codility_Lessons.ArrayLessons
+namespace CSharpAlgorithms.Codility.ArrayLessons
 {
     /*
     A zero-indexed array A consisting of N integers is given. Rotation of the array means that each element is shifted right by one index, 

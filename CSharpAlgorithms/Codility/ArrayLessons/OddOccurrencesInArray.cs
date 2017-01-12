@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace CSharpAlgorithms.Codility_Lessons.ArrayLessons
+namespace CSharpAlgorithms.Codility.ArrayLessons
 {
     public class OddOccurrencesInArray
     {

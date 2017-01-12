@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Codility_Lessons\ArrayLessons\CyclicRotation.cs" />
-    <Compile Include="Codility_Lessons\ArrayLessons\OddOccurrencesInArray.cs" />
-    <Compile Include="Codility_Lessons\Iterations\BinaryGap.cs" />
+    <Compile Include="CodeWars\Vasya_Clerk.cs" />
+    <Compile Include="Codility\ArrayLessons\CyclicRotation.cs" />
+    <Compile Include="Codility\ArrayLessons\OddOccurrencesInArray.cs" />
+    <Compile Include="Codility\Iterations\BinaryGap.cs" />
     <Compile Include="LeetCodeContests\EliminationGame_390.cs" />
     <Compile Include="LeetCodeContests\FindTheDifference_398.cs" />
     <Compile Include="LeetCodeContests\WiggleSequence_376.cs" />
