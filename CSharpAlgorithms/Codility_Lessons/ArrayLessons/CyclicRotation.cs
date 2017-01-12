@@ -1,7 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 
-namespace CSharpAlgorithms.Codility_Lessons.Arrays
+namespace CSharpAlgorithms.Codility_Lessons.ArrayLessons
 {
     /*
     A zero-indexed array A consisting of N integers is given. Rotation of the array means that each element is shifted right by one index, 
@@ -22,12 +21,13 @@ namespace CSharpAlgorithms.Codility_Lessons.Arrays
 
     In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
  
-     */
+     */// || A.Length <= K)
     public class CyclicRotation
     {
         public static void Run()
         {
-            Solution(new int[] { 3, 8, 9, 7, 6 }, 3);
+            Solution(new int[] { 3, 8, 9, 7, 6 }, 42);
+            Solution(new int[] { 1, 1, 2, 3, 5 }, 42);
         }
 
         public static int[] Solution(int[] A, int K)
@@ -37,14 +37,16 @@ namespace CSharpAlgorithms.Codility_Lessons.Arrays
                 return A;
             }
 
-            int[] B = A.Take(K - 1).ToArray();
-            int[] C = A.Skip(K - 1).ToArray();
-            int[] D = C.Union(B).ToArray();
+            int len = A.Length - 1;
 
-            Console.WriteLine($"Original:\t{string.Join(" ", A)}");
-            Console.WriteLine($"Cycled:\t\t{string.Join(" ", D)}");
+            for (int i = 1; i <= K; i++)
+            {
+                int end = A[len];
+                A.Take(len).ToArray().CopyTo(A, 1);
+                A[0] = end;
+            }
 
-            return D;
+            return A;
         }
     }
 }
