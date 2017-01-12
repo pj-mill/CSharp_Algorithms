@@ -34,7 +34,7 @@ A console app demonstrating algorithms of all levels for strings, numbers, array
 
 ---
 
-### LeetCode Contests
+### [LeetCode](https://leetcode.com/problemset/algorithms/)
 |Context No.|Name|Difficulty|
 |-----------|----|-----------|
 |389|[Find The Difference](https://leetcode.com/contest/2/problems/find-the-difference/)|Easy|
