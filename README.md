@@ -4,7 +4,7 @@ A console app demonstrating algorithms of all levels for strings, numbers, array
 
 ---
 
-###Codewars
+### [Codewars](https://www.codewars.com/)
 
 |Challenge|Description|Code|
 |---------|-----------|----|
@@ -12,7 +12,8 @@ A console app demonstrating algorithms of all levels for strings, numbers, array
 
 ---
 
-### Codility Lessons
+### [Codility](https://codility.com/programmers/)
+
 ####Iterations
 |Challenge|Description|Code|
 |---------|-----------|----|
@@ -22,8 +23,17 @@ A console app demonstrating algorithms of all levels for strings, numbers, array
 |Challenge|Description|Code|
 |---------|-----------|----|
 |[CyclicRotation](https://codility.com/programmers/lessons/2-arrays/cyclic_rotation/)|Rotate an array to the right by a given number of steps| [Here](https://github.com/Apollo013/CSharp_Algorithms/blob/master/CSharpAlgorithms/Codility/ArrayLessons/CyclicRotation.cs)|
+|[OddOccurrencesInArray](https://codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/)|Find value that occurs in odd number of elements|
+
+####Time Complexity
+|Challenge|Description|Code|
+|---------|-----------|----|
+|[FrogJmp](https://codility.com/programmers/lessons/3-time_complexity/frog_jmp/)| Count minimal number of jumps from position X to Y. | [Here](https://github.com/Apollo013/CSharp_Algorithms/blob/master/CSharpAlgorithms/Codility/TimeComplexity/FrogJmp.cs) |
+|[PermMissingElem](https://codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/)| Find the missing element in a given permutation| [Here](https://github.com/Apollo013/CSharp_Algorithms/blob/master/CSharpAlgorithms/Codility/TimeComplexity/PermMissingElem.cs) |
+|[TapeEquilibrium](https://codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/)| Minimize the value (A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1]) | [Here](https://github.com/Apollo013/CSharp_Algorithms/blob/master/CSharpAlgorithms/Codility/TimeComplexity/TapeEquilibrium.cs) |
 
 ---
+
 ### LeetCode Contests
 |Context No.|Name|Difficulty|
 |-----------|----|-----------|
