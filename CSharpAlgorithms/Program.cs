@@ -1,4 +1,4 @@
-﻿using CSharpAlgorithms.Codility.ArrayLessons;
+﻿using CSharpAlgorithms.Codility.TimeComplexity;
 
 namespace CSharp.Algorithms
 {
@@ -12,7 +12,11 @@ namespace CSharp.Algorithms
             /// Codility Lessons
             //BinaryGap.Run();
             //CyclicRotation.Run();
-            OddOccurrencesInArray.Run();
+            //OddOccurrencesInArray.Run();
+            //FrogJmp.Run();
+            //PermMissingElem.Run();
+            TapeEquilibrium.Run();
+
 
             /// LEETCODE CONTEST
             //FindTheDifference_389.Run();

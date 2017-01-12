@@ -47,6 +47,9 @@
     <Compile Include="Codility\ArrayLessons\CyclicRotation.cs" />
     <Compile Include="Codility\ArrayLessons\OddOccurrencesInArray.cs" />
     <Compile Include="Codility\Iterations\BinaryGap.cs" />
+    <Compile Include="Codility\TimeComplexity\FrogJmp.cs" />
+    <Compile Include="Codility\TimeComplexity\PermMissingElem.cs" />
+    <Compile Include="Codility\TimeComplexity\TapeEquilibrium.cs" />
     <Compile Include="LeetCodeContests\EliminationGame_390.cs" />
     <Compile Include="LeetCodeContests\FindTheDifference_398.cs" />
     <Compile Include="LeetCodeContests\WiggleSequence_376.cs" />
