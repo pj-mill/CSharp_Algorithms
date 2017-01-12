@@ -1,4 +1,4 @@
-﻿using CSharpAlgorithms.CodeWars;
+﻿using CSharpAlgorithms.Codility.ArrayLessons;
 
 namespace CSharp.Algorithms
 {
@@ -7,12 +7,12 @@ namespace CSharp.Algorithms
         static void Main(string[] args)
         {
             /// CodeWars
-            Vasya_Clerk.Run();
+            //Vasya_Clerk.Run();
 
             /// Codility Lessons
             //BinaryGap.Run();
             //CyclicRotation.Run();
-            //OddOccurrencesInArray.Run();
+            OddOccurrencesInArray.Run();
 
             /// LEETCODE CONTEST
             //FindTheDifference_389.Run();
