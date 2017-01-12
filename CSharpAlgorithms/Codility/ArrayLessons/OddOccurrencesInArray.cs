@@ -16,6 +16,10 @@ namespace CSharpAlgorithms.Codility.ArrayLessons
 
         private static int Solution1(int[] A)
         {
+            /*
+                Group each number and count it.
+                Return the first one that has an odd count
+            */
             Dictionary<int, int> groups = new Dictionary<int, int>();
             foreach (int num in A)
             {
