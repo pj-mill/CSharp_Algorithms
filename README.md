@@ -23,7 +23,7 @@ A console app demonstrating algorithms of all levels for strings, numbers, array
 |Challenge|Description|Code|
 |---------|-----------|----|
 |[CyclicRotation](https://codility.com/programmers/lessons/2-arrays/cyclic_rotation/)|Rotate an array to the right by a given number of steps| [Here](https://github.com/Apollo013/CSharp_Algorithms/blob/master/CSharpAlgorithms/Codility/ArrayLessons/CyclicRotation.cs)|
-|[OddOccurrencesInArray](https://codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/)|Find value that occurs in odd number of elements|
+|[OddOccurrencesInArray](https://codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/)|Find value that occurs in odd number of elements| [Here](https://github.com/Apollo013/CSharp_Algorithms/blob/master/CSharpAlgorithms/Codility/ArrayLessons/OddOccurrencesInArray.cs) |
 
 ####Time Complexity
 |Challenge|Description|Code|
