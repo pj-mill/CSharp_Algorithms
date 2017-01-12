@@ -4,15 +4,23 @@ A console app demonstrating algorithms of all levels for strings, numbers, array
 
 ---
 
+###Codewars
+
+|Challenge|Description|Code|
+|---------|-----------|----|
+|[Vasya-Clerk -> Ticket Line](https://www.codewars.com/kata/vasya-clerk/train/csharp)|Determine if the correct change can be given to a line of cinema goers|[Here](https://github.com/Apollo013/CSharp_Algorithms/blob/master/CSharpAlgorithms/CodeWars/Vasya_Clerk.cs)|
+
+---
+
 ### Codility Lessons
 ####Iterations
-|Lesson|Description|Code|
-|------|-----------|----|
+|Challenge|Description|Code|
+|---------|-----------|----|
 |[BinaryGap](https://codility.com/programmers/lessons/1-iterations/)|Determine the longest sequence of zeros in a binary value|[Here](https://github.com/Apollo013/CSharp_Algorithms/blob/master/CSharpAlgorithms/Codility/Iterations/BinaryGap.cs)|
 
 ####Arrays
-|Lesson|Description|Code|
-|------|-----------|----|
+|Challenge|Description|Code|
+|---------|-----------|----|
 |[CyclicRotation](https://codility.com/programmers/lessons/2-arrays/cyclic_rotation/)|Rotate an array to the right by a given number of steps| [Here](https://github.com/Apollo013/CSharp_Algorithms/blob/master/CSharpAlgorithms/Codility/ArrayLessons/CyclicRotation.cs)|
 
 ---
